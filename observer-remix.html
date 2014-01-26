@@ -6,6 +6,9 @@ Observer Theme
 By Zack Sultan
 Released January 2013
 Revised October 6, 2013
+
+Remixed by fauverism
+
                 
 -->
 
@@ -20,9 +23,7 @@ Revised October 6, 2013
         <link rel="shortcut icon" href="{Favicon}">
         <link rel="alternate" type="application/rss+xml" href="{RSS}">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
-
-
-
+		<link href='http://fonts.googleapis.com/css?family=Mr+De+Haviland' rel='stylesheet' type='text/css'>
 <!-- Options -->
 
 
@@ -241,7 +242,6 @@ body {
 
 .blog-title h1 {
 	font-family: {block:IfHeaderFont}{text:Header Font},{/block:IfHeaderFont} futura, helvetica, arial, sans-serif;
-	font-weight: bold;
 	font-size: 96px;
 	line-height: 1em;
 }
@@ -249,6 +249,9 @@ body {
 .metadata a {
 	font-family: {block:IfSecondaryFont}{text:Secondary Font},{/block:IfSecondaryFont} futura, helvetica, arial, sans-serif;
 	font-weight: normal;
+}
+p.blog-description {
+	text-transform: uppercase;
 }
 
 
@@ -870,7 +873,7 @@ max-width: 100%;
 }
 
 .blog-title h1 {
-	font-size: 40px;
+	font-size: 80px;
 	margin-bottom: 10px;
 }
 
